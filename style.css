@@ -1,12 +1,12 @@
 body {
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 /* CSS Styles for section - hero start here */
 
 .hero {
     background: #1F2937;
-    font-family: Roboto, sans-serif;
 
     .hero-container {
         max-width: 1200px;
@@ -108,6 +108,44 @@ header {
     color: #F9FAF8;
     font-weight: 800;
 }
+
 /* Styles of hero - section end here */
+
+/* Style of info-section starts here */
+
+.info {
+    margin-bottom: 72px;
+}
+.info-title {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    justify-content: center;
+    margin: 72px;
+}
+
+.info-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 12px;
+    gap: 12px;
+}
+
+.cards {
+    width: 210px;
+    font-size: 18px;
+}
+
+.img img {
+    width: 100%;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 0;
+} 
+/* Styling for info section ends here */
 
 
