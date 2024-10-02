@@ -149,3 +149,30 @@ header {
 /* Styling for info section ends here */
 
 
+/* Styling for quote section starts here */
+.quote {
+    background-color: #E5E7EB;
+    padding: 72px 0;
+}
+
+.quote-container {
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 72px;
+    margin: auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-source {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 800;
+}
