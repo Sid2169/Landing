@@ -176,3 +176,44 @@ header {
     font-size: 24px;
     font-weight: 800;
 }
+/* End of styling for quote section */
+
+
+/* Interact section starts */
+.interact {
+    padding: 144px 0;
+}
+
+.interact-container {
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 72px 144px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.interact-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.interact-text {
+    font-size: 18px;
+}
+
+.end-signup {
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    border: solid 2px #F9FAF8;
+    font-weight: 800;
+}
