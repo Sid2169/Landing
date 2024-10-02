@@ -217,3 +217,15 @@ header {
     border: solid 2px #F9FAF8;
     font-weight: 800;
 }
+/* End of interact */
+
+/* footer-section starts */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 44px 0;
+}
